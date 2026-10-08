@@ -22,3 +22,5 @@ python src/train_and_predict.py
 Predictions are written to `predictions/` as a single column with header `y`.
 
 Note: `src/train_and_predict.py` runs Problem 1 (var1); `src/var2_only.py` runs Problem 2 (var2) with a lighter, single-process search.
+
+Note: `src/train_and_predict.py` runs Problem 1 (var1); `src/var2_only.py` runs Problem 2 (var2) with a lighter, single-process search.

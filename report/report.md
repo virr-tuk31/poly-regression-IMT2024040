@@ -97,4 +97,4 @@ Error falls steeply from degree 1 (MSE 34.6) to degree 8 (MSE 0.25), so the rese
 
 Both problems needed non-linear models: a linear fit explained only 12% (var1) and 24% (var2) of the variance. For var1, plain least squares works only at low degree, and degree 4 is the sweet spot before overfitting begins. For var2, regularization allowed a rich degree-10 surface to be fitted reliably and kept even degree-20 models stable. Possible improvements are a finer alpha grid, nested cross-validation for a less biased error estimate, and applying Ridge to var1 to see whether it improves on degree 4.
 
-**Code and data:** <<paste your GitHub repo URL here>>
+**Code and data:** https://github.com/virr-tuk31/poly-regression-IMT2024040

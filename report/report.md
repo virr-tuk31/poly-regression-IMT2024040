@@ -15,7 +15,7 @@ Problem 1 selected **degree 4** with ordinary least squares (CV MSE 0.7528, CV R
 
 ## 2.1 Exploratory analysis
 
-The training set has 1000 rows, six inputs (x1-x6) and a target y, with no missing values. All inputs lie in [-1, 1] with means near 0 and standard deviations of about 0.71-0.72, so they are already similar in scale; they were still standardized so that polynomial terms stay well-conditioned. The target ranges from about -10.3 to 13.6 (mean 0.74, std 3.26). A straight-line fit explains only about 12% of the variance (CV R² = 0.124), which indicates strongly non-linear behaviour and interactions between inputs. <<Optional: add one sentence about any correlations or patterns you saw in the data.>>
+The training set has 1000 rows, six inputs (x1-x6) and a target y, with no missing values. All inputs lie in [-1, 1] with means near 0 and standard deviations of about 0.71-0.72, so they are already similar in scale; they were still standardized so that polynomial terms stay well-conditioned. The target ranges from about -10.3 to 13.6 (mean 0.74, std 3.26). A straight-line fit explains only about 12% of the variance (CV R² = 0.124), which indicates strongly non-linear behaviour and interactions between inputs.
 
 ## 2.2 Method
 
@@ -46,7 +46,7 @@ Degree 4 has the lowest CV MSE (0.7528 ± 0.084) and the highest CV R² (0.9285)
 
 ## 3.1 Spatial mapping analysis
 
-The training set has 1000 rows with three spatial coordinates x1-x3 (all in [-1, 1], means near 0, std about 0.67-0.68) and a target y ranging from about -30.2 to 39.2 (mean 2.04, std 6.77), with no missing values. The coordinates are therefore mapped onto a normalized cube, and y is the measured quantity at each point. A linear model explains only about 24% of the variance (CV R² = 0.245), so the field varies non-linearly through space. <<Optional: add one sentence about the shape of the field, e.g. smooth gradients or localized peaks, if you plotted it.>>
+The training set has 1000 rows with three spatial coordinates x1-x3 (all in [-1, 1], means near 0, std about 0.67-0.68) and a target y ranging from about -30.2 to 39.2 (mean 2.04, std 6.77), with no missing values. The coordinates are therefore mapped onto a normalized cube, and y is the measured quantity at each point. A linear model explains only about 24% of the variance (CV R² = 0.245), so the field varies non-linearly through space.
 
 ## 3.2 High-degree polynomial search (1-20)
 

@@ -1,0 +1,42 @@
+var2 d= 1 ridge alpha=1.0e+01 MSE=34.5663 R2=0.2446
+var2 d= 1 lasso alpha=1.0e-03 MSE=34.5677 R2=0.2445
+var2 d= 2 ridge alpha=1.0e+01 MSE=23.5326 R2=0.4855
+var2 d= 2 lasso alpha=1.0e-02 MSE=23.5348 R2=0.4854
+var2 d= 3 ridge alpha=1.0e+00 MSE=11.8332 R2=0.7393
+var2 d= 3 lasso alpha=1.0e-03 MSE=11.8355 R2=0.7392
+var2 d= 4 ridge alpha=1.0e-02 MSE=3.6588 R2=0.9190
+var2 d= 4 lasso alpha=1.0e-03 MSE=3.6607 R2=0.9190
+var2 d= 5 ridge alpha=1.0e-01 MSE=1.4638 R2=0.9675
+var2 d= 5 lasso alpha=1.0e-03 MSE=1.4621 R2=0.9675
+var2 d= 6 ridge alpha=1.0e-02 MSE=0.5418 R2=0.9881
+var2 d= 6 lasso alpha=1.0e-03 MSE=0.5548 R2=0.9878
+var2 d= 7 ridge alpha=1.0e-01 MSE=0.3212 R2=0.9929
+var2 d= 7 lasso alpha=1.0e-03 MSE=0.3605 R2=0.9920
+var2 d= 8 ridge alpha=1.0e-01 MSE=0.2549 R2=0.9944
+var2 d= 8 lasso alpha=1.0e-03 MSE=0.2909 R2=0.9936
+var2 d= 9 ridge alpha=1.0e-01 MSE=0.2526 R2=0.9944
+var2 d= 9 lasso alpha=1.0e-03 MSE=0.2693 R2=0.9941
+var2 d=10 ridge alpha=1.0e+00 MSE=0.2439 R2=0.9946
+var2 d=10 lasso alpha=1.0e-03 MSE=0.2545 R2=0.9944
+var2 d=11 ridge alpha=1.0e+00 MSE=0.2467 R2=0.9945
+var2 d=11 lasso alpha=1.0e-03 MSE=0.2519 R2=0.9944
+var2 d=12 ridge alpha=1.0e+00 MSE=0.2491 R2=0.9945
+var2 d=12 lasso alpha=1.0e-03 MSE=0.2532 R2=0.9944
+var2 d=13 ridge alpha=1.0e+00 MSE=0.2578 R2=0.9943
+var2 d=13 lasso alpha=1.0e-03 MSE=0.2524 R2=0.9944
+var2 d=14 ridge alpha=1.0e+00 MSE=0.2624 R2=0.9942
+var2 d=14 lasso alpha=1.0e-03 MSE=0.2554 R2=0.9943
+var2 d=15 ridge alpha=1.0e+00 MSE=0.2721 R2=0.9939
+var2 d=15 lasso alpha=1.0e-03 MSE=0.2557 R2=0.9943
+var2 d=16 ridge alpha=1.0e+00 MSE=0.2769 R2=0.9938
+var2 d=16 lasso alpha=1.0e-03 MSE=0.2602 R2=0.9942
+var2 d=17 ridge alpha=1.0e+00 MSE=0.2873 R2=0.9936
+var2 d=17 lasso alpha=1.0e-03 MSE=0.2593 R2=0.9942
+var2 d=18 ridge alpha=1.0e+00 MSE=0.2923 R2=0.9935
+var2 d=18 lasso alpha=1.0e-03 MSE=0.2626 R2=0.9942
+var2 d=19 ridge alpha=1.0e+00 MSE=0.3045 R2=0.9932
+var2 d=19 lasso alpha=1.0e-03 MSE=0.2629 R2=0.9941
+var2 d=20 ridge alpha=1.0e+00 MSE=0.3099 R2=0.9931
+var2 d=20 lasso alpha=1.0e-03 MSE=0.2661 R2=0.9941
+==> var2 best: degree=10, model=ridge, alpha=1.0e+00, MSE=0.2439, R2=0.9946
+Saved predictions/IMT2024040-pred_var2.csv. Done.

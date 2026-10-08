@@ -50,7 +50,7 @@ The training set has 1000 rows with three spatial coordinates x1-x3 (all in [-1,
 
 ## 3.2 High-degree polynomial search (1-20)
 
-With three inputs, the number of polynomial terms grows as 9 at degree 3, 285 at degree 10 and 1,770 at degree 20. The higher degrees have more terms than the 800 rows available in each CV training fold, so unregularized fitting would overfit as it did in Problem 1.
+With three inputs, the number of polynomial terms grows as 19 at degree 3, 285 at degree 10 and 1,770 at degree 20. From degree 15 the number of terms exceeds the 800 rows available in each CV training fold, so unregularized fitting would overfit as it did in Problem 1.
 
 ## 3.3 Regularization strategy
 
@@ -86,7 +86,7 @@ Error falls steeply from degree 1 (MSE 34.6) to degree 8 (MSE 0.25), so the rese
 - **Overfitting (high variance):** high degrees fit noise. In var1, train R² climbs to 1.0 while CV R² collapses to large negative values from degree 6.
 - **Regularization controls variance:** the same situation in var2 (up to 1,770 terms versus 800 rows per fold) stays stable, with CV MSE staying between 0.24 and 0.31 up to degree 20. This is the clearest demonstration of why penalized regression is needed at high degree.
 - **Validation protocol:** 5-fold shuffled CV with a fixed seed (42); scaling fitted inside each fold; hyperparameters (alpha) tuned by CV; the test set was never used for model selection.
-- **Limitation:** CV MSE is an estimate with some variation (var1 degree 4 std = 0.084), so near-tied degrees cannot be separated with certainty.
+- **Limitation:** CV MSE is an estimate with some variation (var1 degree 4 std = 0.084), so near-tied degrees cannot be separated with certainty. The reported var2 scores are slightly optimistic because alpha was tuned on the same folds used for scoring; nested cross-validation would give an unbiased estimate.
 
 # 5. Summary and Conclusion
 

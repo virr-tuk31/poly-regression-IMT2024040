@@ -9,7 +9,7 @@ Two regression problems solved with polynomial feature expansion and cross-valid
 
 ## Method
 1. **var1:** Standardize features, expand to polynomial degree d (1-10), fit ordinary least squares, and score with 5-fold cross-validation (MSE and R2). The degree with the lowest CV MSE is selected.
-2. **var2:** Scale features, expand to degree d (1-20), standardize the expanded features, and fit Ridge and Lasso with the regularization strength tuned by inner cross-validation. The (degree, model, alpha) combination with the lowest CV MSE is selected.
+2. **var2:** Scale features, expand to degree d (1-20), standardize the expanded features, and fit Ridge and Lasso with the regularization strength tuned by cross-validation. The (degree, model, alpha) combination with the lowest CV MSE is selected.
 3. The chosen model is refit on the full training set and used to predict the test set.
 
 ## How to run
